@@ -9,12 +9,12 @@
       padding: 10px;
       position: relative;
     }
-    .nav-active {
+    .nav_active {
       &::after { //permet de souligner l'élément siblé
         content: "";
         width: 85%;
         height: 5px;
-        background: --color-1;
+        background: $color-1;
         position: absolute;
         bottom: 1px;
         left: 50%;
