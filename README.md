@@ -1,8 +1,26 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Vite React : https://vite.dev/guide/
+1- npm create vite@latest
+2- Entrer dans le dossier : npm install
+3- Aperçu : npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Install react router dom : https://www.npmjs.com/package/react-router-dom
+1- npm i react-router-dom
+
+
+## Install Sass : CSS : https://www.npmjs.com/package/sass
+1- npm i sass
+
+
+## Install react-axios : https://www.npmjs.com/package/react-axios
+1- npm i react-axios
+
+
+## Extension Chrome :
+https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=fr&utm_source=ext_sidebar
+
+
+## API : https://restcountries.com/
