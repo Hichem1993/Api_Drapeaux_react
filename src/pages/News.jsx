@@ -7,8 +7,8 @@ import Navigation from "../components/Navigation";
 //rsc
 const News = () => {
     const[ newData, setNewData ] = useState();
-    //const [author, setAuthor ] = useState("");
-    //const [content, setContent ] = useState("");
+    const [author, setAuthor ] = useState("");
+    const [content, setContent ] = useState("");
 
     const getData = () => {
         axios
@@ -22,12 +22,26 @@ const News = () => {
         getData();
     }, [] )
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        axios.post("http://localhost:3001/article", {
+            author,
+            content,
+            date: new Date()
+        } )
+        .then( () => {
+            setAuthor,
+            setContent,
+            getData()
+        } )
+    }
+
     return (
         <div className="news-container">
             <Navigation />
-            <form>
-                <input type="text" placeholder="Nom" />
-                <textarea placeholder="Message" />
+            <form onSubmit={handleSubmit}>
+                <input type="text" placeholder="Nom" value={author} onChange={ (e) => setAuthor(e.target.value) } />
+                <textarea placeholder="Message" value={content} onChange={ (e) => setContent(e.target.value) } />
                 <input type="submit" value="Send" />
             </form>
 
