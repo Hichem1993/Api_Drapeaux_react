@@ -3,7 +3,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import "../styles/components/_countries.scss"
 
-const Countries = (props) => {
+const Countries = () => {
 
     // useState permet de modifier l'état d'unedonnée
     const [data , setData] = useState([]); // On récupere les donnée dans un tableau

@@ -1,0 +1,22 @@
+{
+    "article" : [
+        {
+            "author" : "Hichem",
+            "content" : "Coucou, c'est bien moi",
+            "id" : 1,
+            "date": 24012025
+        },
+        {
+            "author" : "Joe",
+            "content" : "Coucou, Je suis Joe Dalton et j'aime ton site",
+            "id" : 2,
+            "date": 24012025
+        },
+        {
+            "author" : "Ben Ayed",
+            "content" : "Coucou, Je suis Joe Dalton et j'aime ton site",
+            "id" : 2,
+            "date": 24012025
+        }
+    ]
+}
